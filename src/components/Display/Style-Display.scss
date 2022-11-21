@@ -1,0 +1,31 @@
+.line {
+  width: 35px;
+  height: 3px;
+  background: black;
+  border: 3px solid;
+  border-radius: 5px;
+
+}
+.column {
+  width: 3px;
+  height: 35px;
+  background: black;
+  border: 3px solid;
+  border-radius: 5px;
+
+}
+
+.disabled{
+  background: #d6cfcf;
+  border-color: #d6cfcfb5;
+  border-radius: 5px;
+
+}
+
+
+.group {
+  display: flex;
+  justify-content: space-between;
+  margin: 8px auto;
+  border-radius: 5px;
+}
